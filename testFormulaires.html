@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Test de Formulaires - COMETTO Guillaume</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Guillaume</a>
+				<nav>
+					<ul>
+						<li><a href="curriculumvitae.html">CV</a></li>
+						<li><a href="Presentation.html">Présentation</a></li>
+						<li><a href="enpratique.html">En Pratique</a></li>
+						<li><a href="testFormulaires.html" class="active">Test Formulaire</a></li>
+					</ul>
+				</nav>
+			</header>
+
+
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+<nav id="menu">
+<h2>Ce sont des tests, je n'ai pas de formulaire PHP et/ou JS ... !</h2>
+</nav>
+
+<!-- Formulaire------------------------------------------------------------------------------------------------- -->
+<div id="formulaire">
+
+<form method="post" action="traitement.php">
+
+  <!-- barre de recherche------------------------------------------------------------------------------------------------- -->
+	 <label for="search">Recherchez :</label><p><input type="search" name="search" id="search" placeholder="Que voulez-vous rechercher ?"/></p>
+   <!-- Multiligne------------------------------------------------------------------------------------------------- -->
+   <p>
+       <label for="ameliorer">Quels aspects de mon profil puis-je améliorer ?</label><br />
+       <textarea name="ameliorer" id="ameliorer" placeholder="Tout ce qui vous passe par la tête"></textarea>
+   </p>
+
+   <!-- à cocher------------------------------------------------------------------------------------------------- -->
+   <p>
+       Cochez les compétences qui vous ont convaincu :<br />
+       <input type="checkbox" name="dynamisme" id="dynamisme" /> <label for="dynamisme">Dynamisme</label><br />
+       <input type="checkbox" name="creativity" id="creativity" /> <label for="creativity">Créativité</label><br />
+       <input type="checkbox" name="innovation" id="innovation" /> <label for="innovation">Innovation</label><br />
+       <input type="checkbox" name="teamwork" id="teamwork" /> <label for="teamwork">Travail d'équipe</label>
+   </p>
+
+<!-- Text pour pseudo et mdp------------------------------------------------------------------------------------------------- -->
+   <p>
+       <label for="pseudo">Votre pseudo :</label>  <input type="text" name="pseudo" id="pseudo" size="30" placeholder="Entrez votre pseudo"/>
+        <br />
+       <label for="pass">Votre mot de passe :</label> <input type="password" name="pass" id="pass" placeholder="Mot de passe" />
+   </p>
+
+
+<!-- Nombre avec clic------------------------------------------------------------------------------------------------- -->
+   <p><input type="number" name="number" id="number"/></p>
+
+ <!-- Curseur------------------------------------------------------------------------------------------------- -->
+   <p><input type="range" name="range" id="range"/></p>
+
+ <!-- Date------------------------------------------------------------------------------------------------- -->
+   <input type="date" name="date" id="date"/></p>
+
+ <!-- Zone d'option------------------------------------------------------------------------------------------------- -->
+   <p>
+       Veuillez indiquer la meilleure qualité :<br />
+       <input type="radio" name="bestquality" value="dynamismequality" id="dynamismequality" /> <label for="dynamismequality">Dynamisme</label><br />
+       <input type="radio" name="bestquality" value="creativityquality" id="creativityquality" /> <label for="creativityquality">Créativité</label><br />
+       <input type="radio" name="bestquality" value="innovationquality" id="innovationquality" /> <label for="innovationquality">Innovation</label><br />
+       <input type="radio" name="bestquality" value="allquality" id="allquality" /> <label for="allquality">Totues les qualités</label>
+   </p>
+
+ <!-- Liste déroulante------------------------------------------------------------------------------------------------- -->
+   <p>
+       <label for="entretien">Avez-vous apprécié l'entretien ?</label><br />
+       <select name="entretien" id="entretien">
+           <option value="veryyes">Beaucoup</option>
+           <option value="little">Un peu</option>
+           <option value="littleno">Pas vraiment</option>
+           <option value="veryno">Pas du tout</option>
+       </select>
+   </p>
+
+<!-- Bouton envoyer------------------------------------------------------------------------------------------------- -->
+   <p><input type="submit" value="Envoyer" /></p>
+
+</form>
+</div>
+<!-- Formulaire------------------------------------------------------------------------------------------------- -->
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
